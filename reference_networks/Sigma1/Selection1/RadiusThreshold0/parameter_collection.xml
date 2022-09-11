@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameter_collection>
+<parameter>
+<added_by>VesselBasedDiscreteSource</added_by>
+<name>Connor17_EcsPerLength</name>
+<value>1.2e-05</value>
+<description>Number of endothelial cells per vessel length</description>
+<symbol>$/nu$</symbol>
+<source>"@article{Connor17, 
+ author = {Connor, Anthony J,},}"</source>
+</parameter>
+<parameter>
+<added_by>VesselBasedDiscreteSource</added_by>
+<name>Connor17_ReductionInVegfPerCell;</name>
+<value>1.11111e-22</value>
+<description>Rate of reduction in VEGF concentration per endothelial cell</description>
+<symbol>$K^v_{EC}$</symbol>
+<source>"@article{Connor17, 
+ author = {Connor, Anthony J,},}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Generic_GasConcentrationAtStp</name>
+<value>44.6429</value>
+<description>Gas concentration at STP</description>
+<symbol>C_{stp}</symbol>
+<source>"-"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Owen11_CellOxygenConsumptionRate</name>
+<value>0.216667</value>
+<description>Cell oxygen consumption rate</description>
+<symbol>k_c^{cell}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Owen11_InflowHaematocrit</name>
+<value>0.45</value>
+<description>Inflow haematocrit</description>
+<symbol>H_{in}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Owen11_OxygenDiffusivity</name>
+<value>2.41667e-09</value>
+<description>Oxygen diffusivity </description>
+<symbol>D_{c}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>ViscosityCalculator</added_by>
+<name>Owen11_PlasmaViscosity</name>
+<value>0.0012</value>
+<description>Blood plasma viscosity</description>
+<symbol>\mu_{plasma}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Owen11_ReferencePartialPressure</name>
+<value>2666.45</value>
+<description>Reference partial pressure of inlet haematocrit vessels</description>
+<symbol>C_{Ref}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Owen11_VesselOxygenPermeability</name>
+<value>0.001</value>
+<description>Vessel permeability to oxygen</description>
+<symbol>\psi_{c}</symbol>
+<source>"@article{Owen2011, 
+ author = {Owen, Markus R and Stamper, I Johanna and Muthana, Munitta and Richardson, Giles W and Dobson, Jon and Lewis, Claire E and Byrne, Helen M},
+ journal = {Cancer research}, 
+ month = {apr}, 
+ number = {8}, 
+ pages = {2826--37},
+ title = {{Mathematical modeling predicts synergistic antitumor effects of combining a macrophage-based, hypoxia-targeted gene therapy with chemotherapy.}},
+ volume = {71}, 
+ year = {2011}}"</source>
+</parameter>
+<parameter>
+<added_by>User</added_by>
+<name>Secomb04_OxygenVolumetricSolubility</name>
+<value>2.32519e-07</value>
+<description>Oxygen solubility</description>
+<symbol>\alpha_{eff}</symbol>
+<source>"@article{Secomb04, 
+ author = {Secomb, Timothy W and Hsu, Richard and Park, Eric Y H and DeWhirst, Mark W},
+ journal = {Annals of Biomedical Engineering}, 
+ month = {nov}, 
+ number = {11}, 
+ pages = {1519--29},
+ title = {{Green’s function methods for analysis of oxygen delivery to tissue by microvascular networks.}},
+ volume = {32}, 
+ year = {2004}}"</source>
+</parameter>
+</parameter_collection>
